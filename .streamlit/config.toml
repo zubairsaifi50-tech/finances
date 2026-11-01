@@ -1,0 +1,10 @@
+# .streamlit/config.toml (Safe to commit to GitHub)
+[theme]
+base = "dark"
+primaryColor = "#00D09C" # Groww-inspired emerald accent
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1C24"
+textColor = "#FAFAFA"
+
+[client]
+toolbarMode = "minimal"

@@ -1,0 +1,40 @@
+# ==============================================================================
+# 1. STREAMLIT & GOOGLE CLOUD SECRETS (CRITICAL SECURITY)
+# ==============================================================================
+.streamlit/secrets.toml
+secrets.toml
+*credentials*.json
+*service_account*.json
+*client_secret*.json
+token.json
+*.pem
+*.key
+.env
+.env.*
+
+# ==============================================================================
+# 2. PYTHON VIRTUAL ENVIRONMENTS & CACHE
+# ==============================================================================
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+
+# ==============================================================================
+# 3. LOCAL EXPORTS, LOGS & OS ARTIFACTS
+# ==============================================================================
+Finances_Ledger_*.csv
+Finances_Portfolio_Balances_*.csv
+Finances_Executive_Audit_*.md
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
